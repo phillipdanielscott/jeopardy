@@ -1,0 +1,11 @@
+
+<h2>Your Question is: {{ newSituation }}</h2>
+<input type="text" ng-model="inputVal">
+<button type="button" name="button" ng-click="addScore()">enter</button>
+<button ng-click="question()">question</button>
+</section>
+<h2>Answer here</h2>
+<h3>difficulty:{{ points }}</h3>
+<h4>score:{{ game.score }}</h4>
+<h3>Your answer:{{userAnswer}}</h3>
+<h3>What we were looking for:{{correctAnswer}}</h3>
